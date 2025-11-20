@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.csv
+*.json
+
+# Keep only HTML charts
+!smh_v7_chart_*.html
+!index.html
