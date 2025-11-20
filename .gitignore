@@ -4,7 +4,12 @@ __pycache__/
 .venv/
 *.csv
 *.json
+logs/
 
-# Keep only HTML charts
-!smh_v7_chart_*.html
+# Images (too many to track)
+*.png
+
+# Keep only latest HTML charts
+*.html
+!latest.html
 !index.html
